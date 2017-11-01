@@ -1,0 +1,44 @@
+<VAST version="2.0">
+    <Ad id="8a8664a1-4872-413e-8e8f-cf073648631a">
+        <Wrapper>
+            <AdSystem version="1.0">The Trade Desk</AdSystem>
+            <VASTAdTagURI><![CDATA[https://gist.githubusercontent.com/Wild-Ria/ffd5c3a7e7bb13a514166d0c149a690a/raw/fafa76732720a94543ebd68644e25efb35aef9d6/vast_2.xml]]></VASTAdTagURI>
+            <Error><![CDATA[http://loopme.me/api/v2/events?et=CUSTOM&name=vast_test_l1_error]]></Error>
+            <Impression><![CDATA[http://loopme.me/api/v2/events?et=CUSTOM&name=vast_test_l1_impression]]></Impression>
+            <Creatives>
+                <Creative AdID="f0qdkmx0">
+                    <Linear>
+                        <TrackingEvents>
+                            <Tracking event="creativeView"><![CDATA[http://loopme.me/api/v2/events?et=CUSTOM&name=vast_test_l1_cr_view]]></Tracking>
+                            <Tracking event="start"><![CDATA[http://loopme.me/api/v2/events?et=CUSTOM&name=vast_test_l1_start]]></Tracking>
+                            <Tracking event="midpoint"><![CDATA[http://loopme.me/api/v2/events?et=CUSTOM&name=vast_test_l1_midpoint]]></Tracking>
+                            <Tracking event="firstQuartile"><![CDATA[http://loopme.me/api/v2/events?et=CUSTOM&name=vast_test_l1_25]]></Tracking>
+                            <Tracking event="thirdQuartile"><![CDATA[http://loopme.me/api/v2/events?et=CUSTOM&name=vast_test_l1_75]]></Tracking>
+                            <Tracking event="complete"><![CDATA[http://loopme.me/api/v2/events?et=CUSTOM&name=vast_test_l1_complete]]></Tracking>
+                            <Tracking event="mute"><![CDATA[http://loopme.me/api/v2/events?et=CUSTOM&name=vast_test_l1_mute]]></Tracking>
+                            <Tracking event="unmute"><![CDATA[http://loopme.me/api/v2/events?et=CUSTOM&name=vast_test_l1_unmute]]></Tracking>
+                            <Tracking event="pause"><![CDATA[http://loopme.me/api/v2/events?et=CUSTOM&name=vast_test_l1_pause]]></Tracking>
+                            <Tracking event="rewind"><![CDATA[http://loopme.me/api/v2/events?et=CUSTOM&name=vast_test_l1_rewind]]></Tracking>
+                            <Tracking event="resume"><![CDATA[http://loopme.me/api/v2/events?et=CUSTOM&name=vast_test_l1_resume]]></Tracking>
+                            <Tracking event="fullscreen"><![CDATA[http://loopme.me/api/v2/events?et=CUSTOM&name=vast_test_l1_fullscreen]]></Tracking>
+                            <Tracking event="expand"><![CDATA[http://loopme.me/api/v2/events?et=CUSTOM&name=vast_test_l1_expand]]></Tracking>
+                            <Tracking event="collapse"><![CDATA[http://loopme.me/api/v2/events?et=CUSTOM&name=vast_test_l1_collapse]]></Tracking>
+                            <Tracking event="acceptInvitation"><![CDATA[http://loopme.me/api/v2/events?et=CUSTOM&name=vast_test_l1_acceptInv]]></Tracking>
+                            <!--<Tracking event="close"><![CDATA[http://loopme1.com/creativeView1]]></Tracking>
+                            <Tracking event="start"><![CDATA[http://loopme1.com/creativeView1]]></Tracking>
+                            <Tracking event="firstQuartile"><![CDATA[http://loopme1.com/creativeView1]]></Tracking>
+                            <Tracking event="midpoint"><![CDATA[http://loopme1.com/creativeView1]]></Tracking>
+                            <Tracking event="thirdQuartile"><![CDATA[http://loopme1.com/creativeView1]]></Tracking>
+                            <Tracking event="complete"><![CDATA[http://loopme1.com/creativeView1]]></Tracking>-->
+                        </TrackingEvents>
+                        <VideoClicks>
+                            <ClickTracking><![CDATA[http://loopme.me/api/v2/events?et=CUSTOM&name=vast_test_l1_vidClicks_clTr1]]></ClickTracking>
+                            <ClickTracking><![CDATA[http://loopme.me/api/v2/events?et=CUSTOM&name=vast_test_l1_vidClicks_clTr2]]></ClickTracking>
+                            <ClickTracking id="TV"><![CDATA[http://loopme.me/api/ads/v2/events?et=CUSTOM&name=vast_test_l1_vidClicks_clTr3]]></ClickTracking>
+                        </VideoClicks>
+                    </Linear>
+                </Creative>
+            </Creatives>
+        </Wrapper>
+    </Ad>
+</VAST>
